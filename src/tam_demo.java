@@ -25,7 +25,8 @@ public class tam_demo {
 		
 		WebElement usernameElement = driver.findElement(By.xpath("//input[@id='username']"));
 		WebElement passwordElement = driver.findElement(By.xpath("//input[@id='password']"));
-
+		
+		usernameElement.click()
 		
 		//explicitWait() tells the WebDriver to wait for certain conditions before maximum time exceeds
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
