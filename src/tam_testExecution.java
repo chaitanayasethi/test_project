@@ -20,7 +20,7 @@ public class tam_testExecution {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.manage().window().maximize();
-
+		
 		driver.get("https://login.salesforce.com");
 		Thread.sleep(3000);
 
